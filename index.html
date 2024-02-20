@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Story Maker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Interactive Story Maker</h1>
+    <div id="storyControls">
+        <!-- Nouns Section -->
+        <div id="nouns" class="word-section">
+            <button class="word-button" style="background-color: #FFA07A;">Noun</button>
+            <span class="word-selection"></span>
+        </div>
+        <!-- Verbs Section -->
+        <div id="verbs" class="word-section">
+            <button class="word-button" style="background-color: #FA8072;">Verb</button>
+            <span class="word-selection"></span>
+        </div>
+        <!-- Adjectives Section -->
+        <div id="adjectives" class="word-section">
+            <button class="word-button" style="background-color: #FFD700;">Adjective</button>
+            <span class="word-selection"></span>
+        </div>
+    </div>
+    <button id="tellStory" class="action-button">Tell Story</button>
+    <button id="randomStory" class="action-button">Random Story</button>
+    <button id="reset" class="action-button">Reset</button>
+    <p id="storyOutput"></p>
+    <script src="scrpit.js"></script>
+</body>
+</html>
